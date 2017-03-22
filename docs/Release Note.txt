@@ -1,0 +1,182 @@
+   ------------------------------------------------------------------------------------------------------------------------------------------
+    
+    VOLTUS Client SDK
+    Release Notes
+
+   ------------------------------------------------------------------------------------------------------------------------------------------
+    
+    2016.10.10
+
+    v. 0.9.9
+    Build Number : iOS(88), Android(97)
+
+     야간 푸시 동의 기능 추가
+     Android 6.0(API 23) 이상 지원을 위한 권한 요청 기능 추가(Android)
+     플랫폼 서버 관련 주소 변경
+     배너가 하나도 없을 경우에 onFinishedBannerPopup 콜백 미호출 문제(Android)
+     External(Public) IP 정보를 플랫폼 서버로 전송
+     게스트 상태에서 업적, 리더보드 팝업 출력 호출 시 크래시 현상 수정(Android)
+
+
+    2016.09.13
+
+    v. 0.9.8
+    Build Number : iOS(86), Android(91)
+
+     푸시 수신 동의 여부 체크 추가
+     Facebook Ads 기능 추가
+     로그인 시에 OS 버전, Device 모델명을 보내도록 추가
+     게임 센터 계정 전환 시 자동 로그 아웃 기능 적용(iOS)
+     푸시 수신 시의 웹링크 이동 시 약간의 딜레이가 생기는 부분 수정(iOS)
+     로고, 약관, 배너에서 기기 방향에 따라 UI가 잘못 보이는 부분 수정(iOS)
+
+
+    2016.09.05
+
+    v. 0.9.7
+    Build Number : iOS(82), Android(89)
+
+     IAP 취소 코드 추가
+     공지 사항 On/Off 기능 추가
+     무료 충전소 팝업 출력 API 추가
+     푸시 수신 On/Off 설정 기능 추가
+     배너 팝업 출력 완료 이벤트 함수 추가
+     로그인 프로세스 변경
+     Guest 로그인 관련 일부 수정(iOS)
+     종료 배너 닫기 시의 일부 크래시 현상 수정(Android)
+     푸시 팝업 내 버튼명을 '취소', '확인'으로 변경(Android)
+     GPGS 로그 아웃 후 GPGS 재로그인이 안되는 오류 수정(Android)
+     Game Center 로그인을 CRSDKManager 내의 login 함수에서 진행하도록 변경(iOS) 
+     CRSDKManager.initWithGameID 함수에서 두번째 파라미터인 OneStoreID에 따른 스토어 타입 구분 적용(Android)
+     CRUser에서 gameuid 가 __NSCFNumber로 잘못 캐스팅 되는 오류 수정(iOS)
+     무료 충전소 팝업 내의 웹뷰에서 Alert 창 뜨지 않는 부분 수정(Android)
+
+
+    2016.08.23
+
+    v. 0.9.6
+    Build Number : iOS(74), Android(82)
+
+     배너 팝업(로그인 배너) 종료 시 공지 팝업 자동 출력 기능 삭제
+     인앱 구매 완료 시 금액에 따라서 크래시되는 현상 수정(Android)
+     푸시 팝업 내의 메시지 부분의 폰트 크기 좀 더 크게 수정(Android)
+     무료 충전소 하단 부에 웹뷰 영역을 화면 하단부까지 차지하도록 수정(Android)
+     배너 출력 시 배너 간의 출력 딜레이를 좀 더 짧게 조정(Android)
+
+
+    2016.08.19
+
+    v. 0.9.5
+    Build Number : iOS(73), Android(80)
+
+     공지, 약관 UI 일부 수정
+     배너 팝업 내 이미지 표시를 비율 기반으로 출력하도록 변경(16:9)
+     Push Notification 메세지 팝업 UI 디자인 수정(Android)
+     res.bundle 파일 내에 version 파일을 포함하도록 변경(iOS)
+
+
+    2016.08.12
+
+    v. 0.9.4
+    Build Number : iOS(70), Android(77)
+
+     무료 충전소 수정
+     로그인 실패 시의 실패 코드 전달 추가
+     공지 사항 팝업 URL 호출 시 게임 토큰 추가
+     배너 딥링크 및 웹링크 링크 URL 전달 오류 수정
+     종료 배너에서는 공지 팝업이 출력이 안되도록 변경
+     배너 화면 방향 출력 오류 수정(iOS)
+     로그아웃 함수 호출 시 크래시 이슈 수정(Android)
+     푸시 알람에서  bar와 popup 동시에 보낼 시 popup 미출력 에러 수정(Android)
+     배너 팝업에서 ‘닫기’ 버튼 크기 영역 크게 조정(Android)
+     
+
+    2016.08.08
+
+    v. 0.9.3
+    Build Number : iOS(68), Android(74)
+
+     무료 충전소 추가(공지 팝업 내 포함)
+     게임 센터 기본 인증 지원, 기본적인 로그인 프로세스 수정(iOS)
+     GPGS(Google Play Game Service) 로그인 방식 수정, CRSDKManager.login API 함수에서 로그인하도록 변경(Android)
+     네트워크가 안될 시의 로그인 예외 처리 코드 적용(Android)
+     배너 딥링크, 웹링크 등의 오류 수정
+     Facebook 로그인 시에도 기본 로그인 델리게이트 및 리스너 받도록 수정(iOS, Android)
+     로그인 팝업에서 게스트 버튼 삭제(iOS)
+     UUID 값을 키체인에 저장하도록 변경(iOS)
+
+
+    2016.07.13
+    
+    v. 0.9.2
+    Build Number : iOS(59), Android(67)
+    
+     약관 화면 UI 변경
+     CRSDKManager.initWithGameID 에서 GPGS 초기화 하도록 변경 (Android)
+     Unity VOLTUS_Setting.asset 파일에서 GoogleSenderID 파라미터 추가(Unity)
+     플랫폼 로고 화면에서의 Copyright 문구 사이즈 변경(landscape)
+     iOS에서 약관, 배너, 로고 등에서 방향 변환 시 오류 수정(UIDeviceOrientationFaceUp, UIDeviceOrientationFaceDown 무시)
+     공지 팝업에서 ‘오늘 하루 그만 보기’ 기능 추가
+
+
+    2016.06.30
+    
+    v. 0.9.1
+    Build Number : iOS(53), Android(58)
+    
+     원스토어 IAP 기능 추가
+     로고, 약관, 공지, 배너, 로그인 화면 UI 변경
+     구글 플레이 게임 서비스 관련 설정 변경(Android)
+     구글 플레이 게임 서비스 플랫폼 로그인 프로세스 적용(Android)
+     기존 리소스 파일들을 bundle 구조로 변경(iOS)
+     Native, Unity3d 통합 SDK 구조로 변경
+
+
+    2016.06.03
+    
+    v. 0.9.0
+    Build Number : iOS(36), Android(35)
+    
+     IAP(애플 앱스토어, 구글 플레이) 기능 추가
+     플랫폼 로고 출력 기능 추가
+     쿠폰 등록 기능 추가
+     푸시 관련 설정 변경(Android)
+
+     - 원스토어(Android) IAP 기능 차후 버전 지원 예정
+
+
+    2016.05.18
+    
+    v. 0.8.1
+    Build Number : iOS(25), Android(18)
+    
+     Unity3d Native 형태의 SDK 재구성
+     기존 Native SDK는 미수정
+
+     - 게임 센터 및 구글 플레이 게임 서비스는 0.8.1 버전에서는 미지원
+       차후 버전에서 정식으로 지원할 예정(Unity3d)
+
+
+    2016.05.04
+    
+    v. 0.8.0
+    Build Number : iOS(22), Android(16)
+    
+     최초 베타 버전
+      - 지원 기능
+        1. 소셜 인증
+           Facebook, Google+ 지원
+        2. 약관 페이지 
+           플랫폼 및 개인 정보 등의 약관 페이지 팝업 지원
+        3. 배너 팝업
+           배너 리스트를 보여주는 팝업 지원
+        4. 공지 팝업
+           공지 리스트를 보여주는 팝업 지원
+        5. 푸시 알림 서비스
+           기본 푸시 알림 기능 지원.
+           안드로이드 같은 경우는 기본 푸시 기능 외에도 롱텍스트, 빅이미지, 메세지팝업, 티커 메세지 등의 추가 푸시 기능 지원
+        6. 게임 센터 및 구글 플레이 게임 서비스 지원
+           iOS, Android 의 기본 게임 서비스인 게임 센터 및 구글 플레이 게임 서비스 지원
+           업적 및 리더보드 기능 지원
+ 
+   ----------------------------------------------------------------------------------------------------------------------------------------
