@@ -1,6 +1,6 @@
 # VOLTUS SDK
 
-VOLTUS SDK는 모바일 게임을 위한 통합 게임 플랫폼 
+VOLTUS SDK는 모바일 게임을 위한 통합 게임 플랫폼 도구입니다.
 
 # Introduction 
 
