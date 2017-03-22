@@ -1,5 +1,7 @@
 # VOLTUS SDK
 
+VOLTUS SDK는 모바일 게임을 위한 통합 게임 플랫폼 
+
 # Introduction 
 
 <img src="http://jsappfactory.cafe24.com/Resources/voltus/intro1.png" width=900>
