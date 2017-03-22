@@ -2,8 +2,8 @@
 
 # Introduction 
 
-<img src="http://jsappfactory.cafe24.com/Resources/voltus/intro1.png" width=600>
-<img src="http://jsappfactory.cafe24.com/Resources/voltus/intro2.png" width=600>
+<img src="http://jsappfactory.cafe24.com/Resources/voltus/intro1.png" width=900>
+<img src="http://jsappfactory.cafe24.com/Resources/voltus/intro2.png" width=900>
 
 # Contact Us
 
